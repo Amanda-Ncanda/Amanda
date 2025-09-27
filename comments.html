@@ -8,18 +8,23 @@
 </head>
 
 <body>
-    <form action="/submit_comment" method="POST">
+    <div>
         <label for="student_number">Student Number:</label><br>
         <input type="text" id="student_number" name="student_number" required><br><br>
 
-        <label for="comment_text">Comment:</label><br>
-        <textarea id="comment_text" name="comment_text" rows="4" cols="50" required></textarea><br><br>
+        <label for="commentText">Comment:</label><br>
+        <textarea id="commentText" name="comment_text" rows="4" cols="50" required></textarea><br><br>
 
         <label for="sender_name">Your Name:</label><br>
         <input type="text" id="sender_name" name="sender_name" required><br><br>
 
-        <input type="submit" value="Post Comment">
-    </form>
+        <button onclick="addComment()">Post Comment</button>
+    </div>
+
+    <div id="error"></div>
+    <div id="comments"></div>
 </body>
+<script src="comments.js"></script>
+<script defer src="https://katlehomyezabbd.github.io/ikusasa-lethu-comments/comments-service.js"></script>
 
 </html>
