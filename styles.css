@@ -27,8 +27,16 @@ header {
 
 .cards {
     display: flex;
+    flex-direction: column;
 }
 
 .card {
     display: flex;
+    flex-direction: column;
+
+    img {
+
+        max-width: 30vw;
+        height: auto;
+    }
 }
