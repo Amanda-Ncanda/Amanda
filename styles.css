@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+.logo {
+
+    color: blueviolet;
+    /* color: brown; */
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    display: flex;
+
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+}
