@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+</head>
+
+<body>
+    <form action="/submit_comment" method="POST">
+        <label for="student_number">Student Number:</label><br>
+        <input type="text" id="student_number" name="student_number" required><br><br>
+
+        <label for="comment_text">Comment:</label><br>
+        <textarea id="comment_text" name="comment_text" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="sender_name">Your Name:</label><br>
+        <input type="text" id="sender_name" name="sender_name" required><br><br>
+
+        <input type="submit" value="Post Comment">
+    </form>
+</body>
+
+</html>
